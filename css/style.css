@@ -1231,7 +1231,7 @@ input[type='radio']:checked::after {
 
     .trends {
         flex-wrap: wrap;
-        max-width: 100%;
+        
     }
 
     .trend1 {
@@ -1254,6 +1254,10 @@ input[type='radio']:checked::after {
         height: 248px;
     }
 
+    .trend-link {
+        font-size: 2vw;
+    }
+
 
     .main {
         width: 394px;
@@ -1274,7 +1278,7 @@ input[type='radio']:checked::after {
     }
 
     .post-img-img {
-        width: 394px;
+        width: 100%;
     }
 
     .post-content {

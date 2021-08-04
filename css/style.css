@@ -453,7 +453,7 @@ input[type='radio']:checked::after {
 .trend-content-box {
     margin: 0 19px 15px 19px;
     border: 2px solid #b59f5b;
-    max-width: 100%;
+    width: 100%;
 }
 
 .trend-content {
@@ -917,7 +917,9 @@ input[type='radio']:checked::after {
 
 
 .product-img {
-    margin: 0 21px;
+
+    display: block;
+    margin: 0 auto;
  
 }
 
@@ -1079,7 +1081,7 @@ input[type='radio']:checked::after {
     }
 
     .content {
-        max-width: 768px;
+
         padding: 0 37px;
         margin: 0 auto;
     }
@@ -1116,8 +1118,8 @@ input[type='radio']:checked::after {
     .header-btn {
         display: flex; 
         align-items: center;  
-        position: absolute;
-        top: 42px;
+        position: relative;
+        top: 10px;
         right: 20px;
         width: 26px;
         height: 26px;
@@ -1266,7 +1268,7 @@ input[type='radio']:checked::after {
 
     .post {
         flex-wrap: wrap;
-        border-bottom: 3px solid #cfcaca;
+        border-bottom: 3px solid #eeeeee;
     }
 
     .post:not(:last-child) {
@@ -1291,6 +1293,7 @@ input[type='radio']:checked::after {
 
     .post-text {
         margin-top: 22px;
+        margin-bottom: 15px;
     }
 
     .title-link{
@@ -1330,7 +1333,7 @@ input[type='radio']:checked::after {
 
 /*MOBILE*/
 
-@media (min-width: 360px) and (max-width: 768px) {
+@media (min-width: 320px) and (max-width: 768px) {
 
     .popup {
         align-items: flex-start;
@@ -1350,7 +1353,6 @@ input[type='radio']:checked::after {
 
 
     .content {
-        max-width: 360px;
         padding: 0 15px;
         margin: 0 auto;
     }
@@ -1485,6 +1487,7 @@ input[type='radio']:checked::after {
         max-width: 277px;
     }
 
+
     .trend-title {
         font-family: "Open Sans" ,sans-serif;
         font-size: 16px;
@@ -1514,7 +1517,7 @@ input[type='radio']:checked::after {
 
     .post {
         flex-wrap: wrap;
-        border-bottom: 3px solid #fcfcfc;
+        border-bottom: 3px solid #eeeeee;
     
     }
 
@@ -1540,6 +1543,7 @@ input[type='radio']:checked::after {
 
     .post-text {
         margin-top: 26px;
+        margin-bottom: 15px;
     }
 
     .title-link{
@@ -1556,6 +1560,7 @@ input[type='radio']:checked::after {
         margin-bottom: 60px;
     }
 
+
     .aside {
         width: 100%;
     }
@@ -1569,7 +1574,7 @@ input[type='radio']:checked::after {
     }
 
     .product-img {
-      width: 250px;
+        width: 250px;
     }
 
 }

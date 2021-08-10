@@ -730,7 +730,7 @@ input[type='radio']:checked::after {
 }
 
 .mailing-file{
-    width: 268px;
+    width: 100%;
     height: 47px;
     font-size: 13px;
     border: none;
@@ -1120,9 +1120,8 @@ input[type='radio']:checked::after {
         align-items: center;  
         position: relative;
         top: 10px;
-        right: 20px;
-        width: 26px;
-        height: 26px;
+        width: 22px;
+        height: 20px;
         cursor: pointer;
         z-index: 1;
     }
@@ -1262,7 +1261,7 @@ input[type='radio']:checked::after {
 
 
     .main {
-        width: 394px;
+        width: calc(100% - 303px);
         margin-top: 49px;
     }
 
@@ -1327,6 +1326,7 @@ input[type='radio']:checked::after {
     .aside {
         width: 269px;
         margin-top: 49px;
+        margin-left: 34px;
     }
 }
 
@@ -1394,10 +1394,10 @@ input[type='radio']:checked::after {
         display: flex; 
         align-items: center;  
         position: absolute;
-        top: 27px;
+        top: 31px;
         right: 5px;
-        width: 26px;
-        height: 26px;
+        width: 22px;
+        height: 20px;
         cursor: pointer;
         z-index: 1;
     }
@@ -1529,6 +1529,11 @@ input[type='radio']:checked::after {
         margin-top: 57px;
     }
 
+
+    .post-img {
+        width: 100%;
+    }
+
     .post-img-img {
         width: 100%;
     }
@@ -1544,6 +1549,18 @@ input[type='radio']:checked::after {
     .post-text {
         margin-top: 26px;
         margin-bottom: 15px;
+    }
+
+    .search-form {
+        width: calc(100% - 47px);
+    }
+
+    .search-file {
+        width: 100%;
+    }
+
+    .search-button {
+        width: 47px;
     }
 
     .title-link{
@@ -1567,6 +1584,7 @@ input[type='radio']:checked::after {
 
     .products {
         width: 100%;
+        justify-content: center;
     }
 
     .product {
